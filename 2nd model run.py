@@ -157,8 +157,8 @@ def create_submission(predictions, test):
     print(f"Current working directory: {cwd}")
 
 def main():
-    filename = 'C:\\Users\\jacob\\OneDrive\\Documents\\Python\\kaggle project\\train.csv.zip'
-    test_file = 'C:\\Users\\jacob\\OneDrive\\Documents\\Python\\kaggle project\\test.csv.zip'
+    filename = 'File_name'
+    test_file = 'File_name'
     data = load_data(filename)
     test = load_data(test_file)
     
